@@ -1,0 +1,33 @@
+.footer {
+  height: 320px;
+  background-color: #081429;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 0 35px 0;
+}
+
+.footerInner {
+  height: 100%;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-img {
+  width: 22%;
+}
+
+.footermenu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.social-icon {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}

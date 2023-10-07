@@ -1,0 +1,57 @@
+.header {
+  height: 64px;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px 5px 30px;
+  z-index: 1000;
+}
+.color-change {
+  background-color: white;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+  /* text-decoration-style: solid;
+    text-transform: capitalize; */
+}
+.navmenu2 {
+  color: rgb(0, 51, 88);
+}
+
+.navitem {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.navitem::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0, 51, 88);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.navitem:hover::after {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

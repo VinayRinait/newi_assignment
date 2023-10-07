@@ -1,0 +1,57 @@
+/* .home {
+  position: relative;
+} */
+.bgimage {
+  /* background-image: url("https://ntwist.com/wp-content/uploads/2023/01/home-image-bg-v6.png"); */
+  width: 100%;
+}
+
+/* .bgimgdiv {
+  position: relative;
+} */
+
+.home-content {
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px 0 100px;
+}
+
+.home-title-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.home-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 40px;
+  margin: 0;
+}
+
+.home-btn {
+  margin-top: 25px;
+  width: fit-content;
+  padding: 9px 35px;
+  border-radius: 3px;
+  border: none;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.home-image {
+  height: 100%;
+}
